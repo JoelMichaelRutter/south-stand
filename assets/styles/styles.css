@@ -12,8 +12,15 @@ Paragraph Fonts = font-family: 'Bitter', serif; -----------*/
     box-sizing: border-box;
 }
 
+body p {
+    font-family: 'Bitter', serif;
+}
+
+body h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
 /*---------- Mobile Portrait View Styles -----------*/
 
 @media (min-width: 320px) {
-    
+
 }
