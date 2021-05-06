@@ -83,6 +83,8 @@ nav li {
 
     #book-table-button {
         position: relative;
+        bottom: 5.2rem;
+        left: 12.2rem;
     }
 
 }
