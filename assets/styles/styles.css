@@ -6,6 +6,8 @@
 Heading Fonts = font-family: 'Raleway', sans-serif;
 Paragraph Fonts = font-family: 'Bitter', serif; -----------*/
 
+
+/*-------- Global Styles ---------*/
 * {
     margin: 0;
     padding: 0;
@@ -61,12 +63,26 @@ nav li {
         float: left;
     }
 
+    nav ul {
+        margin-left: 0.5rem;
+    }
     nav li {
         display: inline-block;
-        margin-top: 40px;
+        margin-top: 20px;
         font-family: 'Raleway', sans-serif;
         font-size: 0.6rem;
         padding: 0 15px;
-        text-transform: uppercase;
         letter-spacing: 1px;
+        font-weight: bold;
+    }
+
+    nav li a {
+    color: #fafafa;
+    text-decoration: none;
+    }
+
+    #book-table-button {
+        position: relative;
+    }
+
 }
