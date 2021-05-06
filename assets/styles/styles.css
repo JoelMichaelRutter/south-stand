@@ -6,10 +6,14 @@
 Heading Fonts = font-family: 'Raleway', sans-serif;
 Paragraph Fonts = font-family: 'Bitter', serif; -----------*/
 
-/* Mobile Portrait View Styles*/
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*---------- Mobile Portrait View Styles -----------*/
+
+@media (min-width: 320px) {
+    
 }
